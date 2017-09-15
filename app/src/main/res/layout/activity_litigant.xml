@@ -1,9 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
     tools:context="com.shinhan.mcourt.LitigantActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="소송인 정보" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <!--    android:weightSum="3">   -->
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="금액" />
+
+        <EditText
+            android:id="@+id/amt"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.06"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="성명" />
+
+        <EditText
+            android:id="@+id/subname"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.06"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="은행" />
+
+        <EditText
+            android:id="@+id/bankcd"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.06"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="환급계좌" />
+
+            <EditText
+                android:id="@+id/act"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.06"
+                android:ems="10"
+                android:inputType="textPersonName" />
+    </LinearLayout>
+
+<LinearLayout
+
+
+
+
