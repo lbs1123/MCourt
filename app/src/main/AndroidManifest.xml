@@ -17,7 +17,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".SubActivity" />
-        <activity android:name=".ChoiceActivity"></activity>
+        <activity android:name=".ChoiceActivity" />
+        <activity android:name=".LitigantActivity" />
+        <activity android:name=".IssueActivity" />
+        <activity android:name=".Out1Activity"></activity>
     </application>
 
 </manifest>
