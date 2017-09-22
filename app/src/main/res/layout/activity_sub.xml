@@ -22,7 +22,7 @@
         android:layout_marginTop="20dp">
 
         <TextView
-            android:id="@+id/textView1"
+            android:id="@+id/textView2"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:text="법원선택" />
@@ -48,7 +48,7 @@
         android:layout_marginTop="20dp">
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/textView3"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:text="소송비용 선택" />
@@ -67,6 +67,8 @@
             android:layout_weight="1"
             android:text="소송등인지" />
 
+
+
     </LinearLayout>
 
     <LinearLayout
@@ -76,7 +78,7 @@
         android:layout_marginTop="20dp">
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/textView4"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:text="납부자 성명" />
@@ -89,5 +91,18 @@
             android:ems="10"
             android:inputType="textPersonName" />
     </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff00ffff"
+        android:text="소송정보 입력"
+        android:textColor="#ffff0000"
+        android:textSize="30dp"
+        android:gravity="bottom|center"
+        android:onClick="onClick"
+        android:layout_marginTop="70dp"
+        android:layout_weight="1"/>
 
 </LinearLayout>

@@ -17,12 +17,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".SubActivity" />
-        <activity android:name=".ChoiceActivity" />
         <activity android:name=".LitigantActivity" />
         <activity android:name=".IssueActivity" />
         <activity android:name=".Out1Activity" />
         <activity android:name=".InjiActivity" />
-        <activity android:name=".ListViewActivity"></activity>
     </application>
 
 </manifest>

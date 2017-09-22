@@ -23,7 +23,7 @@
         android:layout_marginTop="20dp">
 
         <TextView
-            android:id="@+id/textView1"
+            android:id="@+id/textView2"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:text="은행" />
@@ -42,7 +42,7 @@
         android:layout_marginTop="20dp">
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/textView3"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:text="가상계좌번호" />
@@ -60,7 +60,7 @@
         android:layout_marginTop="20dp">
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/textView4"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:text="금액" />
@@ -68,8 +68,20 @@
         <ListView
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
-
     </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff00ffff"
+        android:text="종   료"
+        android:textColor="#ffff0000"
+        android:textSize="30dp"
+        android:gravity="bottom|center"
+        android:onClick="onClick"
+        android:layout_marginTop="70dp"
+        android:layout_weight="1"/>
 
 
 </LinearLayout>
